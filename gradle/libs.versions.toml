@@ -9,6 +9,7 @@ maven-publish = "0.29.0"
 buildconfig = "5.5.0"
 kotlinx-coroutines = "1.9.0"
 dokka = "1.9.20"
+intelliJPlatform = "2.1.0"
 
 [libraries]
 clikt = { group = "com.github.ajalt.clikt", name = "clikt", version.ref = "clikt" }
@@ -25,3 +26,6 @@ com-android-tools-build-gradle = { module = "com.android.tools.build:gradle", ve
 io-gitlab-arturbosch-detekt-gradle-plugin = { module = "io.gitlab.arturbosch.detekt:detekt-gradle-plugin", version.ref = "detekt" }
 com-github-gmazzo-buildconfig-plugin = { module = "com.github.gmazzo.buildconfig:plugin", version.ref = "buildconfig" }
 com-vanniktech-gradle-maven-publish = { module = "com.vanniktech:gradle-maven-publish-plugin", version.ref = "maven-publish" }
+
+[plugins]
+intelliJPlatform = { id = "org.jetbrains.intellij.platform", version.ref = "intelliJPlatform" }

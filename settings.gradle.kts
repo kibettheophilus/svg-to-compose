@@ -22,4 +22,5 @@ include(
 //    ":docs",
     ":svg-to-compose",
     ":svg-to-compose-gradle-plugin",
+    ":svg-to-compose-intellij-plugin",
 )

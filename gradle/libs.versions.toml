@@ -10,6 +10,8 @@ buildconfig = "5.5.0"
 kotlinx-coroutines = "1.9.0"
 dokka = "1.9.20"
 intelliJPlatform = "2.1.0"
+junit = "4.13.2"
+changelog = "2.2.1"
 
 [libraries]
 clikt = { group = "com.github.ajalt.clikt", name = "clikt", version.ref = "clikt" }
@@ -17,6 +19,7 @@ com-squareup-okio = { group = "com.squareup.okio", name = "okio", version.ref = 
 detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }
 com-fleeksoft-ksoup = { module = "com.fleeksoft.ksoup:ksoup", version.ref = "ksoup"}
 org-jetbrains-kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
 
 # Plugins
 org-jetbrains-dokka-gradle-plugin = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "dokka" }
@@ -29,3 +32,4 @@ com-vanniktech-gradle-maven-publish = { module = "com.vanniktech:gradle-maven-pu
 
 [plugins]
 intelliJPlatform = { id = "org.jetbrains.intellij.platform", version.ref = "intelliJPlatform" }
+changelog = { id = "org.jetbrains.changelog", version.ref = "changelog" }
